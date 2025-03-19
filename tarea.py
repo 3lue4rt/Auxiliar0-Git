@@ -3,6 +3,9 @@ class Tarea:
         self.nombre = nombre
         self.listo = False
 
+    def terminar(self):
+        self.listo = True
+
     def obtenerNombre(self):
         return self.nombre
 
